@@ -83,8 +83,7 @@ sections:
         style: button
 seo:
   title: Stackbit Exto Theme
-  description: |
-    The preview of the Exto theme
+  description: The preview of the Exto theme
   extra:
     - name: 'og:type'
       value: website
