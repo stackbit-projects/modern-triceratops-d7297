@@ -12,7 +12,7 @@ export default class Body extends React.Component {
             <React.Fragment>
                 <Helmet>
                     <title>{_.get(this.props, 'page.frontmatter.seo.title', null) ? (_.get(this.props, 'page.frontmatter.seo.title', null)) : _.get(this.props, 'page.frontmatter.title', null) + ' | ' + _.get(this.props, 'data.config.title', null)}</title>
-                    
+                    <meta name="yandex-verification" content="69ec8da1e4e9e6af" />
                     <meta charSet="utf-8"/>
                     <meta name="viewport" content="width=device-width, initialScale=1.0" />
                     <meta name="google" content="notranslate" />
